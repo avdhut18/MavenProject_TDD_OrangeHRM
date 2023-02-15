@@ -25,4 +25,9 @@ public class PIMTest extends CommonTest {
 		Assert.assertEquals(false, false);
 	}
 	
+	@Test(priority=6,groups= {"smoke","regression"})
+	public void TestGit1() {
+		Assert.assertEquals(false, false);
+	}
+	
 }
